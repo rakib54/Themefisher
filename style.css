@@ -213,11 +213,14 @@
         left: 50%;
         transform: translate(-50%, -50%);
     }
-
-    .chartDiv {
-
+    .background-color{
+        position: relative;
+        background: url(images/bgimage.svg) no-repeat;
+        background-repeat: no-repeat;
+        background-attachment: auto;
+        height: 5300px;
     }
-
+    
   }
 
 

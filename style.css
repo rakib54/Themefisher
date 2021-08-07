@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.common-btn {
+    outline: none;
+    background-color: #FF3A44;
+    padding: 10px 18px !important;
+    color: #fff !important;
+}
+
+
+/* Header */
+
+.header img{
+    width: 500px;
+    height: 380px;
+}
+
+.background-color {
+    position: relative;
+    background: url(images/bgimage.svg) no-repeat;
+    background-repeat: no-repeat;
+    background-attachment: auto;
+    height: 3300px;
+}
+
+.header-main{
+    position: absolute;
+    margin-top: 1350px;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.cards{
+    height: 390px;
+    width: 300px;
+}
+.card1 {
+    background-color: #FF3A44;
+    width: 300px;
+    height: 390px;
+    border-radius: 20px;
+}
+.card2 {
+    background-color:#FFBD2F ;
+    width: 300px;
+    height: 390px;
+    border-radius: 20px;
+}
+
+.card3 {
+    background-color: #0489CA;
+    width: 300px;
+    height: 390px;
+    border-radius: 20px;
+}
+.card-img-div {
+    width: 80px;
+    height: 80px;
+    background-color: #0B4C61;
+    border-radius: 15px;
+    box-shadow: 0 8px 4px -2px #3f6470;
+}
+.notification {
+    margin-top: 23px;
+    margin-left: 22px;
+}
+.notification1 {
+    margin-top: 23px;
+    margin-left: 30px;
+}
+.notification2 {
+    margin-top: 23px;
+    margin-left: 26px;
+}
+
+/* Schedule Style */
+
+.ScheduleCard1 {
+    background-color: #0C5F79;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.Number1 {
+    background-color: #0489CA;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: #ffffff;
+    margin-top: 5px;
+}
+.Num1 p {
+    margin-left: 10px;
+    padding-left: 7px;
+}
+.ScheduleCard2 {
+    background-color: #0C5F79;
+    border-radius: 10px;
+}
+.Number2 {
+    background-color: #FFBD2F;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: #ffffff;
+    margin-top: 5px;
+}
+.Num2 p {
+    margin-left: 10px;
+    padding-left: 5px;
+}
+.ScheduleCard3 {
+    background-color: #0C5F79;
+    border-radius: 10px;
+}
+.Number3 {
+    background-color: #FF3A44;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    color: #ffffff;
+    margin-top: 5px;
+}
+.Num3 p {
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+.chart {
+    background-color: #0C5F79;
+    border-radius: 20px;
+    height: 460px;
+    width: 665px;
+}
+
+.chart img {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 425px;
+    width: 611px;
+}
+
+/* help Teams section */
+
+.helpTeams {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+    height: 321px;
+    border-radius: 30px;
+    background-color: #0C5F79;
+}
+
+.RightDiv {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+
+.footer-area {
+    border-top: 1px solid #196781;
+    border-bottom: 1px solid #196781;
+}
+
+.footer-area li{
+    padding-bottom: 20px;
+    color: wheat;
+}
+  
+.social-media i{
+    height: 40px;
+    width: 40px;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: white;
+    padding: 11px;
+}
+.footer-area p {
+    color: #D8D8D8;
+}
+.footer-area h5 {
+    color: #ffffff;
+}
+.footer-area h2 {
+    color: #ffffff;
+}
+
+
+/* Responsive */
+
+@media(max-width: 768px){
+    .chart img {
+        margin-left: 20px;
+        margin-top: 20px;
+        height: 425px;
+        width: 411px;
+    }
+
+    .header-main{
+        position: absolute;
+        margin-top: 2700px;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .chartDiv {
+
+    }
+
+  }
+
+
